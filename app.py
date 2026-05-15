@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load model
-model = joblib.load("model/xgb_burnout_model.pkl")
+model = joblib.load("xgb_burnout_model.pkl")
 
 st.title("🧠 Tech Burnout Checker")
 st.write("Predict burnout levels based on workplace and lifestyle factors.")
